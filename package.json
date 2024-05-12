@@ -1,0 +1,16 @@
+{
+  "name": "test-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "menu_active.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scantailwind": "npx tailwindcss -i ./assets/css/config.css -o ./assets/css/stylos.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
